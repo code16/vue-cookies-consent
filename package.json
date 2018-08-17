@@ -1,6 +1,6 @@
 {
   "name": "vue-cookies-consent",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Vue cookies consent components",
   "main": "dist/vue-cookies-consent.js",
   "scripts": {
