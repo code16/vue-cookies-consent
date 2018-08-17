@@ -1,0 +1,25 @@
+{
+  "name": "vue-cookies-consent",
+  "version": "0.0.1",
+  "description": "Vue cookies consent components",
+  "main": "dist/vue-cookies-consent.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "author": "Antoine Guingand - Code 16",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aguingand/vue-cookies-consent.git"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "vue-cookie": "^1.1.4",
+    "vue-cookie-law": "^1.6.0"
+  },
+  "devDependencies": {
+    "laravel-mix": "^2.1.11",
+    "vue": "^2.5.17"
+  }
+}
