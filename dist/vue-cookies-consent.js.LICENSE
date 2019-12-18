@@ -1,0 +1,11 @@
+/*!
+ * vue-cookie-law v1.11.0
+ * (c) 2019 Jakub Juszczak <jakub@posteo.de>
+ * 
+ */
+
+/*!
+ * tiny-cookie - A tiny cookie manipulation plugin
+ * https://github.com/Alex1990/tiny-cookie
+ * Under the MIT license | (c) Alex Chao
+ */
