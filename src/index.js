@@ -1,19 +1,12 @@
 import ConsentBar from './components/ConsentBar';
 import ConsentCheckbox from './components/ConsentCheckbox';
-import VueCookie from 'vue-cookie';
+import { defaultLocale } from "./util/i18n";
 
 export default {
-    install(Vue, options={}) {
-        let {
-            approvalUrl='/cookies/consent',
-            denialUrl='/cookies/refuse',
-            cookieName='cookies_consent',
-            checkDoNotTrack=true
-        } = options;
-
-        Vue.use(VueCookie);
-
+    install(Vue, options = {}) {
         Vue.prototype.$cookiesConsent = {
+            cookieName: 'cookies_consent',
+            locale: defaultLocale(),
             ...options,
         };
         Vue.component('cookies-consent-bar', ConsentBar);
